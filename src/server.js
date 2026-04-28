@@ -3,16 +3,6 @@ import cors from "cors"
 import pkg from "pg"
 import registerRoute from "./routes/registerRoute.js"
 
-const { Pool } = pkg
-
-const connection = new Pool({
-    host: "localhost",
-    port: 5432,
-    user: "postgres",
-    password: "Rhurhuu",
-    database: "teste"
-})
-
 const app = express()
 
 app
