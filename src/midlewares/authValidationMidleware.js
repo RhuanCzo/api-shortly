@@ -1,5 +1,5 @@
 import bcrypt from "bcrypt"
-import { userSignInSchema, userSignUpSchema } from "../models/userSchema.js"
+import { userSignInSchema, userSignUpSchema } from "../models/Schemas.js"
 import db from "../database/db.js"
 
 export async function signUpValidation (req, res, next) {
