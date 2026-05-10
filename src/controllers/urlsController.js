@@ -41,8 +41,6 @@ export async function openUrlShort (req, res) {
         console.log(err)
         res.sendStatus(404)
     }
-    
-    res.redirect(searchShortUrl.rows[0].url)
 }
 
 export async function deleteUrlForId (req, res) {
